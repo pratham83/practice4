@@ -1,0 +1,131 @@
+body {
+background-image: url(cool-background.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+}
+
+.box {
+  left: 675px;
+border-radius: 5px;
+  z-index: 9;
+      position: absolute;
+      height: 40px;
+      width: 75px;
+      background-color: white;
+      top: 225px;
+      border-right: 20px solid transparent;
+      border-bottom: 30px solid hsl(198deg 79% 31%);
+}
+
+
+.data {
+  top: 265px;
+    left: 475px;
+  border-radius: 10px;
+  background-color: #11698e;
+  position: absolute;
+  height: 75px;
+  width: 300px;
+}
+
+.message {
+  font-size: 75%
+}
+
+.grad {
+  position: absolute;
+  height: 10px;
+  background: rgb(141, 114, 90);
+  background: linear-gradient(102deg, rgba(141, 114, 90, 1) 47%, rgb(137 61 16) 100%);
+  width: 191px;
+  border-radius: 5px;
+}
+
+.background {
+  border-radius: 5px;
+  position: absolute;
+  width: 265px;
+  height: 10px;
+  background-color: #0a043c;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.flyo {
+  left: 200px;
+  top: 200px;
+  border-radius: 10px 75px 10px 10px;
+  padding: 20px;
+  background-color: #11698e;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+}
+
+span {
+  font-weight: bolder;
+}
+
+.info {
+  font-size: 12px;
+      font-family: fantasy;
+      margin-left: 20px;
+}
+
+
+.message {
+  margin-left: 15px;
+  font-size: 75%;
+  color: white;
+  font-weight: inherit;
+}
+
+.folder {
+  background-color: #0a043c;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  padding: 5px;
+  top: 75px;
+  left: 25px;
+}
+
+.start {
+  color: white;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 75%;
+}
+
+.upload {
+  background-color: #0a043c;
+  position: absolute;
+  top: 75px;
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  left: 70px;
+  padding: 5px;
+}
+
+.end {
+  top: 35px;
+  position: absolute;
+  width: 50px;
+  margin-left: 250px;
+  color: white;
+  font-size: 75%;
+}
+
+.document {
+  background-color: #0a043c;
+  position: absolute;
+  top: 75px;
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  left: 115px;
+  padding: 5px;
+}
